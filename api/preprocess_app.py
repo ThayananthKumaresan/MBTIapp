@@ -77,9 +77,9 @@ def extract_emotion(post):
 
 import pickle
 
-with open('word_tf_vectorizer.pkl', 'rb') as file:
+with open('api\word_tf_vectorizer.pkl', 'rb') as file:
     word_tf_vectorizer = pickle.load(file)
-with open('word_tfidf_vectorizer.pkl', 'rb') as file:
+with open('api\word_tfidf_vectorizer.pkl', 'rb') as file:
     word_tfidf_vectorizer = pickle.load(file)
 
 
